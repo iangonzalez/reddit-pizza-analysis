@@ -1,6 +1,15 @@
 # Analysis of Online Pizza Altruism
 
-This repository contains my machine learning-driven analysis of data from the subreddit r/randomactsofpizza. This code and the subsequent writeup were created for the relevant kaggle competition (see https://www.kaggle.com/c/random-acts-of-pizza) and as a final project for STAT 365 at Yale. Note that much of the code/analysis is reproducing the results achieved in the academic paper linked to in the kaggle competition. 
+This repository contains my machine learning-driven analysis of post data from the subreddit r/randomactsofpizza. This code and the subsequent writeup were created for the relevant kaggle competition (see https://www.kaggle.com/c/random-acts-of-pizza) and as a final project for STAT 365 at Yale. 
+
+The goal of the project was simple: to determine the features of a successful (i.e. pizza-obtaining) post in the subreddit and train a high-accuracy model to predict whether a new post will be successful.
+
+Note that much of the code/analysis is reproducing the results achieved in the academic paper linked to in the kaggle competition. 
+
+
+## The Data
+
+The data is in the `/data` directory, and was all downloaded from the Kaggle competition. See https://www.kaggle.com/c/random-acts-of-pizza/data for a detailed description of the data.
 
 
 ## The Code
